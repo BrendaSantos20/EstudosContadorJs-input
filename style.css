@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(255, 101, 58, 0.854);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-box {
+    background-color: rgba(255, 101, 58, 0.854);
+    height: 350px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 7px 7px 7px rgba(209, 81, 46, 0.854);
+        
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.input {
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.btn{
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn-menos {
+    background-color: rgb(255, 36, 36);
+}
+
+.btn-mais {
+    background-color: rgb(122, 255, 122);
+}
+
+p {
+    font-size: 50px;
+    margin: 0 50px;
+}
+.btn-zerar {
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(209, 209, 209);
+}
+
