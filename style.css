@@ -5,16 +5,16 @@
 }
 
 body {
-    background-color: rgba(255, 101, 58, 0.854);
+    background-color: rgba(215, 136, 254, 0.859);
     min-height: 100vh;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .container-box {
-    background-color: rgba(255, 101, 58, 0.854);
+    background-color: rgba(245, 219, 251, 0.854);
     height: 350px;
     width: 600px;
     display: flex;
@@ -22,8 +22,8 @@ body {
     flex-direction: column;
     align-items: center;
     border-radius: 50px;
-    box-shadow: 7px 7px 7px rgba(209, 81, 46, 0.854);
-        
+    box-shadow: 7px 7px 7px rgba(166, 81, 175, 0.854);
+
 }
 
 h1 {
@@ -42,7 +42,8 @@ h1 {
     align-items: center;
     height: 100px;
 }
-.btn{
+
+.btn {
     width: 100px;
     border-radius: 20px;
     border: none;
@@ -63,6 +64,7 @@ p {
     font-size: 50px;
     margin: 0 50px;
 }
+
 .btn-zerar {
     width: 100px;
     border-radius: 20px;
@@ -72,4 +74,3 @@ p {
     cursor: pointer;
     background-color: rgb(209, 209, 209);
 }
-
